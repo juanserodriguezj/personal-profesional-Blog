@@ -43,6 +43,8 @@ header .icons span{
 }
 /* ------ Fin de estilos al header ↑------ */
 
+@import url(‘https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap’);
+
 /* ------ Inicio de estilos al nav ↓------ */
 nav {
     display: grid;
@@ -86,6 +88,7 @@ nav .profile-link a{
     margin-top: 80px;
 }
 .home-main-text{
+    font-family: 'Roboto momo', 'monospace';
     font-size: 30px;
     font-weight: 700px;
     letter-spacing: 10px; /* Espaciado entre letras */
