@@ -1,5 +1,6 @@
 /* Quitar estilos que el navegador nos da por defecto al body*/
 body {
+    font-family: 'Roboto Mono',monospace;
     margin: 0;
     padding: 0;
     /* Quitarle el scroll a mi pagina */
@@ -88,14 +89,26 @@ nav .profile-link a{
     margin-top: 80px;
 }
 .home-main-text{
-    font-family: 'Roboto momo', 'monospace';
+    font-family: 'Roboto Mono',monospace;
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     letter-spacing: 10px; /* Espaciado entre letras */
     color: white;
     text-align: center;
 }
 
+.home-main-button {
+    width: 100px;
+    height: 50px;
+    background-color: #47cfac;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.home-main-button a{
+    font-weight: 700;
+    font-size: 18px;
+}
 
 
 /* ------ Fin de estilos al main ↑------ */
