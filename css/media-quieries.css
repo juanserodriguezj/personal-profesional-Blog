@@ -19,6 +19,7 @@
     }
     .profile-main-container .profile-container{
         display: block;
+        text-align: center;
     }
    
 }
